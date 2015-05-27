@@ -1,0 +1,185 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* General */
+body {
+font-family:Arial, Helvetica, san-serif;
+line-height:1.4em;
+background-color:white;
+}
+
+/* layout */
+
+
+#container {
+	background-color:white;
+	width:950px;
+	margin:20px auto 0 auto;
+	border:solid thin;
+	border-color:grey;
+}
+
+#header {
+	height: 323px;
+	
+}
+
+#photos {
+	background-color:white;
+	width:650px;
+	float:left;
+	padding-left:20px;
+	padding-top:15px;
+	
+	}
+
+#weather {
+	background-color:green;
+	float:right;
+	}
+
+#information {
+	background-color:white;
+	clear:both;
+	}
+
+#footer {
+	background-color:white;
+		}
+
+
+/* type */
+
+#information {
+	font-family: 'Josefin Sans', sans-serif;
+	line-height:1.6em;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 15px;
+}
+
+#header h1 {
+	position:absolute; 
+	z-index: 999;
+	 font-family: 'Tangerine', cursive;
+	font-size:4.5em;
+	margin-top:-70px;
+	padding-left:600px;
+	color:white ;
+	text-shadow: 2px 1px 1px #000;
+	 
+}
+
+
+
+#footer ul {
+	padding: 30px;
+	
+	}
+
+#footer li {
+	float:left;
+	padding-left: 220px;
+	
+}
+
+/* wiki styling */
+
+#information img, .hatnote, .thumbcaption, tr , .toc, #References, #coordinates, #information .mw-editsection, #information .dablink, #Geography, #Twinned_cities, #External_links, #See_also, #Top_of_the_Town, #Other_areas, .mw-editsection-bracket, .navbox, .mw-redirect, #information ul, #information .reference-text, #information ol  {
+	 display: none;
+}
+
+/* flickr stylin' */
+
+#photos li {
+	float: left;
+	margin: 4px;
+	
+}
+
+li a {
+		text-decoration:none;
+		color:#524C4C;
+	}
+
+li a:hover {
+		text-decoration:none;
+		color:#436270;
+	}
+
+#information a {
+	
+		text-decoration:none;
+		color:black;
+	}
+	
+#information p {
+	padding-bottom: 10px;
+	
+}
+
+#border {
+	width:950px;
+	height:10px;
+	background-color: black;
+	margin-top:-10px;
+	opacity: 0.4;
+	position:absolute;
+	z-index:999;
+}
+
+#History, #Notable_people, #Governance, #Geography_2, #Areas_of_Stirling, #Demography, #Culture, #Economy, #Transport , #Sports_and_recreation, #Education  {
+	font-size:3em;
+	font-family: 'Tangerine', cursive;
+	line-height: 1.2em;
+	
+}
+
